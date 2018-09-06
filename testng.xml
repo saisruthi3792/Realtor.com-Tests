@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Realtor.Com">
+	<parameter name="url" value="https://www.realtor.com/" />
+	<parameter name="driverPath"
+		value="C:\\Users\\SaiSruthi\\Downloads\\chromedriver_win32\\chromedriver.exe" />
+	<test name="all-tests">
+		<classes>
+			<class name="com.realtor.tests.RealtorTests" />
+		</classes>
+	</test>
+</suite> 
